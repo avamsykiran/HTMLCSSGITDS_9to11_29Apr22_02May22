@@ -1,4 +1,3 @@
-
 HTML - Hyper Text Mark Up Language
 ------------------------------------------------------------------------
 
@@ -464,3 +463,134 @@ HTML & CSS Assignment
         Experience And Recent Projects
         Achivments And Publications
         Personal Details
+
+Git
+--------------------------------------------------------------------------------------
+
+    SCM/SVN - Source Code Managment / Source Version
+
+    Git - is one of the most popular SCMs
+
+    Repository - is the folder having the entire code-base and a track of
+                what and when a change happened to each file .
+
+    Remote Repository - is when the repository lives on a server.
+
+    Local Repository - is when the repository live on our local hard drive.
+
+    branch - 
+
+            producer (master) - Original Story
+                    |
+                -------------------------
+                |           |           |
+                Writer1    Writer2     Writer3
+                    |
+                ---------
+                |       |
+                Review1 Review2
+
+    git --version
+    
+    git init
+
+    git clone
+
+    git pull
+
+    git add
+
+    git rm
+
+    git commit
+
+    git push
+
+    git remote add
+
+    git remote get-url
+
+    git branch
+
+    git checkout
+
+    git merge    
+
+    git status
+
+    git log
+
+
+Data Structures
+--------------------------------------------------------------------
+
+    is a science of managing huge-data on the memory,
+
+        Linear DS
+
+            + duplicate ele are allowed
+            + ele are positioned and can be access via the position (index)
+            + both sequential and random access is possible
+            + insertion, deletion and retrival base on position is possible
+
+            Arrays
+                is a concequtively arranged homoginous group of elements
+            Lists
+                is a homoginous group of elements
+
+            Stacks      LIFO
+                Recursive function calls
+                Program counter and methods
+                Expression Evalautions
+
+            Queues      FIFO
+                Schedulars
+
+        Non-Linear DS
+            Trees
+                is used to manage data in a format that suits best for searching.
+
+                Binary Trees
+                    Binary Search Trees
+                        Balanced Binary Search Trees
+                                AVL Trees
+                                Red Black Trees
+                                Splain Trees
+
+                BST     magnotude(left node) < magnitude(root) < magnitude(right node)
+
+
+                12  4   7   8   16  10  21  13  7
+
+
+                                        12
+                        4                       16
+                            7              13        21
+                                8
+                                    10
+
+                                        12
+                            7                   16
+                        4      8            13        21
+                                 10
+                                    
+                Tree Traversals
+
+                                    +
+                                a       b
+
+                    inoder          left - root - right     a+b 4,7,8,10,12,13,16,21
+                    preorder        root - left - right     +ab
+                    postorder       left - right - root     ab+
+
+                        
+
+                                $
+                        #           %
+                    ^       &               *
+                                        (       )
+
+                    ^#&$%(*)
+
+            Graphs
+            Forests
